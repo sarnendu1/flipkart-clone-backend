@@ -23,7 +23,7 @@ const PORT = process.env.PORT || 8000;
 const username = process.env.DB_USERNAME;
 const password = process.env.DB_PASSWORD;
 
-const URL = 'mongodb+srv://sarnendu:rupu@flipkartclone.qqvrd.mongodb.net/flipkartclone?retryWrites=true&w=majority';
+const URL = 'mongodb://atlas-sql-6148a523fa999369c7a5ac31-qqvrd.a.query.mongodb.net/flipkartclone?ssl=true&authSource=admin';
 
 Connection(process.env.MONGODB_URI || URL);
 
